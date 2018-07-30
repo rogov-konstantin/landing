@@ -1,13 +1,16 @@
-.menu{
+.menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.menu-nav{
+.menu-nav {
     display: flex;
     flex-direction: row;
 }
-.menu-nav-items{
-    display: flex;
-    margin: 5px;
+@media screen and (max-width: 850px){
+
+    .banner{
+        margin-top: 56px;
+        padding: 30px 0;
+    }
 }

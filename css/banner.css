@@ -1,18 +1,13 @@
-.banner-container{
+.banner-container {
     display: flex;
     justify-content: center;
 }
-.product-card-container{
+.product-card-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.product-card-container{
+.product-card-wrap {
     padding: 15px;
     width: 25%;
-}
-.product-card{
-    display: flex;
-    flex-wrap: nowrap;
-    direction: row ;
 }
